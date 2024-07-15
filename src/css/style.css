@@ -192,11 +192,14 @@ nav a img{
 /* Informações */
 @media (max-width: 999px){
     .card{
-        width: 13rem !important;
+        width: 10rem !important;
         border: #0ba360 solid 2px !important;
     }
     .card h1{
-        font-size: 50px !important;
+        font-size: 30px !important;
+    }
+    .card:nth-child(5) {
+        border-right: #be1b7c 2px solid !important;
     }
 }
 
